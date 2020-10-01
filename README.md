@@ -5,7 +5,7 @@ This repository contains the files used for generating the [Mono website](http:/
 
 The site uses [Jekyll](http://jekyllrb.com), a static site generator. GitHub Pages, where the site is hosted, natively supports Jekyll so every time someone pushes to this repository, the website will be built and updated. For hosting it yourself, see [Setting up a local copy of the website](#setting-up-a-local-copy-of-the-website).
 
-Contributing to the website
+To contribute to the website
 ---------------------------
 
 **Note:** Major issues or feature requests should be filed on the [issue tracker](https://github.com/mono/website/issues) first, so we can discuss the implications.
@@ -24,7 +24,7 @@ After you've finished your changes, enter a proper summary and description and c
 Setting up a local copy of the website
 --------------------------------------
 
-For larger changes, using the web-based editor on GitHub is not really convenient. A better way is to setup a local copy of the website where you can experiment.
+For larger changes, using the web-based editor on GitHub is not really convenient. But a better way is to setup a local copy of the website where you can do experiment.
 
 ### Dependencies
 
@@ -39,7 +39,7 @@ After you've forked and cloned the repository, run the following commands:
 
 **Note 2:** on case-insensitive file systems like on Windows and macOS you'll run into redirect loops for some URLs. The workaround is to disable redirects locally by removing the `gems: jekyll-redirect-from` entry from `_config.yml`.
 
-The site should now be running locally:
+The site will start running locally:
 ![website](https://cloud.githubusercontent.com/assets/1376924/3712425/c1ab2e9c-1513-11e4-9df2-6e69d461c3cf.png)
 
 Repository structure
